@@ -30,36 +30,61 @@ Before the hats — here are the three physician builder personas driving skill 
 
 ---
 
-## 🎩 WHITE HAT — Facts & Data
-*What do we know? What's trending right now?*
+## 🎩 WHITE HAT — Real Research: What Creators Are Actually Doing
+*Sourced from live browser research on YouTube channels and Twitter/X accounts, March 2026*
 
-### Top AI Trends (Feb 2026) relevant to physician builders:
+---
 
-**Claude Code (Anthropic)**
-- Agentic CLI that runs in terminal — can fix bugs in large codebases autonomously
-- New "agent teams" feature: multiple Claude agents collaborate on a task
-- "Adaptive thinking" + "effort controls" — can do deep work autonomously
-- **Physician superpower opportunity:** A `run-claude-code` skill that wires Claude Code into Anti-Gravity for complex refactoring tasks Anti-Gravity should delegate
+### YouTube — What Top Channels Published This Week
 
-**Google Anti-Gravity + AI Studio Integration**
-- Anti-Gravity now integrates with AI Studio for prototyping → agent development pipeline
-- Can swap models (Gemini, Claude, GPT) per task
-- **Physician superpower opportunity:** A `switch-brain` skill — automatically selects the best model for the task type (Gemini for code, Claude for writing, GPT-4o for vision)
+**Matt Wolfe (@mreflow)**
+- *"20+ NotebookLM Tricks to 3X Productivity"* — Specific technique: **Source Synthesis** feature auto-generates strategy docs from raw notes → **Physician superpower: auto-generate clinical protocols from research dumps**
+- *"The AI Tools You'll ACTUALLY Use Every Day"* — Featured **Blotato** for marketing automation and **Testsprite** for rapid app testing → confirms Blotato as legitimate physician creator tool
+- *"AI News: AI's Biggest Stand Just Happened"* — Covered Google Nano Banana 2 for real-time local data processing without API costs → **relevant for HIPAA: run models locally, no data leaves the machine**
 
-**OpenAI Codex CLI**
-- Cross-platform local coding agent
-- Available to GitHub Copilot users
-- **Physician superpower opportunity:** A `codex-review` skill that runs Codex CLI as a final code review before shipping
+**Fireship**
+- *"The wild rise of OpenClaw..."* — Covered shift from traditional IDEs to fully agentic terminals like **OpenClaw** and **Claude Code** — confirms Claude Code + Anti-Gravity hybrid is the trending workflow
+- *"10 open source tools that feel illegal"* — Included **Anti-Gravity Pre-hooks** for automating repetitive git workflows → **new skill category: pre-hooks for automating context before any agent task runs**
 
-**Multi-Agent Systems (trending hard)**
-- The concept of "agent teams" — multiple AI agents with different specialties working together
-- **Physician superpower opportunity:** A `my-team` skill — doctor describes a problem, it spins up a team: researcher agent, coder agent, reviewer agent, each doing their part
+**Theo (@t3dotgg)**
+- *"Delete your CLAUDE.md (and your AGENT.md too)"* — Key insight: static config files are being replaced by dynamic **Skill Injection** via CLI — confirms SKILL.md is the right long-term approach
+- *"Gemini 3.1 Pro is the smartest model ever made"* — Shows 2M+ token context handling for analyzing entire codebases → **can now ingest an entire medical practice's data in one context window**
+- *"My new app is really stupid (I wrote none of the code)"* — 100% AI-generated codebase using Claude Code with zero manual coding
 
-**Blotato (Content Engine)**
-- Takes one piece of content (video, article, podcast) and repurposes it to every platform
-- Generates AI visuals and audio
-- Schedules posts for optimal timing
-- **Physician superpower:** `content-engine` skill — paste a lecture or article, Blotato distributes to LinkedIn + IG + Twitter + newsletter in minutes
+**David Ondrej (@DavidOndrej)**
+- *"Gemini 3.1 Pro in Antigravity can do anything"* — Demonstrates **Universal Task Runner** skill: verbal idea → mapped directly to agent workflow → **this is essentially the `let's build` skill we planned**
+- *"AgentZero just released the OpenClaw killer"* — Hierarchical multi-agent teams with specialized roles → **physician team of agents: clinical researcher + coder + HIPAA reviewer + content creator**
+
+**Greg Isenberg (@GregIsenberg)**
+- *"How I Use Obsidian + Claude Code to Run My Life"* — Uses personal knowledge base as a context skill for automating email, scheduling, content → **physician version: clinical knowledge base feeds every agent task automatically**
+- *"Claude Code Built My $450K Marketing Campaign"* — Uses **Blotato + Claude Code** for multi-channel campaigns for busy executives → **exact physician entrepreneur use case confirmed at scale**
+
+---
+
+### Twitter/X — Specific Techniques With Engagement Data
+
+| # | Creator | What They Shared | Engagement | Physician Superpower Derived |
+|---|---|---|---|---|
+| 1 | **@levelsio** (Pieter Levels) | Shell alias to bypass Claude Code permissions: `c() { IS_SANDBOX=1 claude --dangerously-skip-permissions "$@"; }` | **3,800+ likes** | **`turbo-mode`** skill — skips approval prompts for known-safe operations (saves minutes/session) |
+| 2 | **@mattshumer_** | **Agent Relay SDK** — headless Slack layer so AI agents communicate via channels, threads, DMs to coordinate long-term goals | 536 likes | **`agent-team`** skill — physician agents coordinate: researcher finds evidence, coder builds feature, reviewer checks HIPAA |
+| 3 | **@danshipper** | **Claw-to-Claw Collaboration** — multiple agents live-edit a document simultaneously, like multiplayer agentic writing | 170+ likes | **`agentic-coauthor`** skill — multiple agents refine a grant proposal or whitepaper simultaneously |
+| 4 | **@KimYx0207** | **"De-AI Smell" skill** — strips typical AI writing hallmarks ("crucially important", "in addition", "delve") from generated content | Viral technique | **`humanizer`** — post-processing skill so physician content doesn't read like a robot wrote it |
+| 5 | **@buildyrs** | **Chronicle Vibe Skill** — auto-documents a coding session, bridges "vibe coding" and shipped code | Growing | **`vibe-to-ship`** — auto-generates PR description and changelog from your coding session |
+| 6 | **Trending (OpenClaw)** | **OpenClaw** — open-source agent runner, rises as alternative to proprietary environments | Rapid rise | **`local-runner`** — run agents on open-source models (Llama 4) locally; no data sent to external APIs = HIPAA-safer |
+| 7 | **@shivasek5** | **Design-to-Code Pipeline** — Figma "Make" + Claude Code turns screenshots into functional React components instantly | 40+ views | **`visual-builder`** — physician points at a screenshot of any UI, Anti-Gravity builds it |
+| 8 | **Trending** | **SKILL.md Standardization** — packaging every automation as a standalone SKILL.md file, now portable across Claude Code, Anti-Gravity, and GitHub Copilot | Industry standard | **Confirms our entire approach** — SKILL.md is cross-platform and future-proof |
+| 9 | **@wei_daisy** | **"Enoughness" framework** — knowing when MVP is done; prevents over-engineering | Viral insight | **`mvp-guardian`** — prevents agent from gold-plating when you need to ship |
+| 10 | **@steadeepanda** | **Agent Ruler (Sandbox)** — local deterministic monitor that ensures agents stay confined to safe local environment | Beta | **`local-safe`** — privacy-first skill for handling sensitive medical data locally, zero external API leaks |
+
+---
+
+### SKILL.md Is Now Cross-Platform
+Confirmed by research: a `SKILL.md` file works identically across:
+- **Google Anti-Gravity** (`~/.gemini/skills/`)
+- **Claude Code** (`~/.claude/skills/`)
+- **GitHub Copilot** (`~/.copilot/skills/`)
+
+This means every skill built in this repo works for ANY physician regardless of which AI agent they use.
 
 ---
 
